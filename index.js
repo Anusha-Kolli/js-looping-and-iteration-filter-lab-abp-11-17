@@ -15,3 +15,4 @@ function matchName(drivers, string) {
  return drivers.filter(function(el) {
     return el.name === string;
   });
+}
