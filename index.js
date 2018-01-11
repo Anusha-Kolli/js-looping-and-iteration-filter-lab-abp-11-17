@@ -10,3 +10,9 @@ function fuzzyMatch(drivers , string) {
     return letterMatch.charAt(0) === string.charAt(0);
   })
 }
+
+function matchName(drivers, string) {
+  return drivers.filter(function name(match){
+    return name.match === string.match
+  })
+}
